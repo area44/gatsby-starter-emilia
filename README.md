@@ -1,4 +1,4 @@
-# Gatsby Starter Emilia by AREA44
+# Gatsby Starter Emilia
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8cc4d4fc-1307-4cf5-a21e-df91984cf067/deploy-status)](https://app.netlify.com/sites/gatsby-starte-emilia/deploys)
 
