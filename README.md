@@ -17,7 +17,7 @@ The site is now running at `http://localhost:8000`!
 
 This starter creates a new Gatsby site that installs and configures the theme [@lekoarts/gatsby-theme-emilia](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-emilia).
 
-### Adding a new project
+### Add a new project
 
 New projects will be shown on the index page of this theme and can be added by creating MDX files inside `content/projects`. General setup:
 
@@ -46,11 +46,11 @@ areas:
 
 The frontmatter alone is enough, if you'd like to add additional content you can do so by writing your content (as usual with MDX) below the frontmatter. It'll be displayed in the header of the project below the date and areas.
 
-### Changing the "About Me" text
+### Change the "About Me" text
 
 Create a file at `src/@lekoarts/gatsby-theme-emilia/texts/about-me.mdx` to edit the text.
 
-### Changing the avatar
+### Change the avatar
 
 Place an image with the name `avatar` inside the folder `content/assets` (or your custom `assetsPath` which you defined for the theme).
 
