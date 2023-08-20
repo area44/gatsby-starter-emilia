@@ -1,0 +1,8 @@
+{
+  "buildCommand": "gatsby build",
+  "outputDirectory": "public",
+  "installCommand": "npm install",
+  "github": {
+    "silent": true
+  }
+}
