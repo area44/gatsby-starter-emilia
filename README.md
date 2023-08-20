@@ -1,7 +1,5 @@
 # Gatsby Starter Emilia
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8cc4d4fc-1307-4cf5-a21e-df91984cf067/deploy-status)](https://app.netlify.com/sites/gatsby-starte-emilia/deploys)
-
 Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Using the Gatsby Theme [`@lekoarts/gatsby-theme-emilia`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-emilia).
 
 ## Installation
