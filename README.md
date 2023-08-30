@@ -1,33 +1,35 @@
 # Gatsby Starter Emilia
 
-Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Using the Gatsby Theme [`@lekoarts/gatsby-theme-emilia`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-emilia).
+Gatsby Starter Emilia is a minimalistic portfolio/photography site that features a masonry grid, page transitions, and large images. It uses the Gatsby Theme `@lekoarts/gatsby-theme-emilia`.
 
 ## Installation
 
-```sh
+To install and run the starter, follow these steps:
+
+```bash
 npm install
 npm run develop
 ```
 
-The site is now running at `http://localhost:8000`!
+The site will now be running at `http://localhost:8000`!
 
 ## Quick Start
 
-This starter creates a new Gatsby site that installs and configures the theme [@lekoarts/gatsby-theme-emilia](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-emilia).
+Gatsby Starter Emilia creates a new Gatsby site and configures the `@lekoarts/gatsby-theme-emilia` theme for you.
 
-### Add a new project
+### Adding a New Project
 
-New projects will be shown on the index page of this theme and can be added by creating MDX files inside `content/projects`. General setup:
+New projects are displayed on the index page of the theme and can be added by creating MDX files inside the `content/projects` folder. Here's a general setup guide:
 
-1. Create a new folder inside `content/projects`
-1. Create a new `index.mdx` file, and add the frontmatter
-1. Add images to the created folder (from step 1)
-1. Reference your desired images as your `cover` in the frontmatter
-1. Write your content below the frontmatter (optional)
-1. Use `defer` to opt-in into Deferred Static Generation (DSG) (optional)
-1. Add a `slug` to the frontmatter to use a custom slug, e.g. `slug: "/my-slug"` (Optional)
+1. Create a new folder inside `content/projects`.
+2. Create a new `index.mdx` file and add the frontmatter.
+3. Add images to the folder created in step 1.
+4. Reference your desired images as your `cover` in the frontmatter.
+5. Write your content below the frontmatter (optional).
+6. Use `defer` to opt-in to Deferred Static Generation (DSG) (optional).
+7. Add a `slug` to the frontmatter to use a custom slug, e.g., `slug: "/my-slug"` (optional).
 
-**Frontmatter reference:**
+Here's an example of the frontmatter:
 
 ```md
 ---
@@ -42,20 +44,20 @@ areas:
 ---
 ```
 
-The frontmatter alone is enough, if you'd like to add additional content you can do so by writing your content (as usual with MDX) below the frontmatter. It'll be displayed in the header of the project below the date and areas.
+You can add additional content below the frontmatter using MDX. It will be displayed in the header of the project below the date and areas.
 
-### Change the "About Me" text
+### Changing the "About Me" Text
 
-Create a file at `src/@lekoarts/gatsby-theme-emilia/texts/about-me.mdx` to edit the text.
+To change the "About Me" text, create a file at `src/@lekoarts/gatsby-theme-emilia/texts/about-me.mdx` and edit the text.
 
-### Change the avatar
+### Changing the Avatar
 
-Place an image with the name `avatar` inside the folder `content/assets` (or your custom `assetsPath` which you defined for the theme).
+To change the avatar, place an image named `avatar` inside the `content/assets` folder (or your custom `assetsPath` if you defined one for the theme).
 
-### Change your static folder
+### Changing the Static Folder
 
-The static folder contains the icons, social media images and robots.txt. Don't forget to change these files, too!
+The static folder contains icons, social media images, and robots.txt. Make sure to change these files as well!
 
 ## Credits
 
-This project inspired from [Gatsby Starter Portfolio: Emilia](https://github.com/LekoArts/gatsby-starter-portfolio-emilia) by Lennart. Please star his project, share it on Social Media or consider supporting him.
+This project was inspired by [Gatsby Starter Portfolio: Emilia](https://github.com/LekoArts/gatsby-starter-portfolio-emilia) by Lennart. Please consider starring his project, sharing it on social media, or supporting him.
