@@ -1,4 +1,4 @@
-import type { GatsbyConfig, PluginRef } from "gatsby"
+import type { GatsbyConfig, PluginRef } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -6,7 +6,8 @@ const config: GatsbyConfig = {
     siteTitleAlt: `Gatsby Starter Emilia | AREA44`,
     siteHeadline: `Gatsby Starter Emilia | AREA44`,
     siteUrl: `https://gatsby-starter-emilia.vercel.app`,
-    siteDescription: "Minimalistic portfolio/photography site with masonry grid, page transitions and big images.",
+    siteDescription:
+      'Minimalistic portfolio/photography site with masonry grid, page transitions and big images.',
     siteImage: `/og-image.jpg`,
     siteLanguage: `en`,
     author: `@torn4dom4n`,
