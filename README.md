@@ -1,6 +1,6 @@
 # Gatsby Starter Emilia
 
-Gatsby Starter Emilia is a minimalistic portfolio/photography site that features a masonry grid, page transitions, and large images. It uses the Gatsby Theme `@lekoarts/gatsby-theme-emilia`.
+Gatsby Starter Emilia is a minimalistic portfolio/photography site that features a masonry grid, page transitions, and large images. It uses the Gatsby Theme [`@lekoarts/gatsby-theme-emilia`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-emilia).
 
 ## Installation
 
