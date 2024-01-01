@@ -33,7 +33,7 @@ const config: GatsbyConfig = {
       options: {
         name: `Gatsby Starter Emilia | AREA44`,
         short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images`,
+        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images.`,
         start_url: `/`,
         background_color: `#fff`,
         display: `standalone`,
