@@ -7,8 +7,8 @@ Gatsby Starter Emilia is a minimalistic portfolio/photography site that features
 To install and run the starter, follow these steps:
 
 ```bash
-npm install
-npm run develop
+bun install
+bun run develop
 ```
 
 The site will now be running at `http://localhost:8000`!
