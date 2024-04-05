@@ -1,16 +1,16 @@
 {
   "name": "@area44/gatsby-starter-emilia",
-  "version": "24.01.01",
+  "version": "24.4.5",
   "private": true,
   "description": "Minimalistic portfolio/photography site that features a masonry grid, page transitions, and large images",
   "author": "AREA44",
   "scripts": {
-    "build": "bunx --bun gatsby build",
-    "clean": "bunx --bun gatsby clean",
-    "develop": "bunx --bun gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
     "format": "prettier -w . --cache",
-    "serve": "bunx --bun gatsby serve",
-    "start": "bunx --bun gatsby develop"
+    "serve": "gatsby serve",
+    "start": "gatsby develop"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-emilia": "^5.1.6",
