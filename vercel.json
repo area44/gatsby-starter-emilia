@@ -1,6 +1,6 @@
 {
   "installCommand": "bun install",
-  "buildCommand": "gatsby build",
+  "buildCommand": "bunx --bun gatsby build",
   "outputDirectory": "public",
   "github": {
     "silent": true
