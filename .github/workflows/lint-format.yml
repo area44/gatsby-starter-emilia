@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Format with Prettier
+      - name: Run format
         run: bunx prettier -w . "!.github"
 
       - name: Run autofix.ci
