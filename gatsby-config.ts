@@ -1,11 +1,12 @@
 import type { GatsbyConfig, PluginRef } from 'gatsby'
 
 const config: GatsbyConfig = {
+  pathPrefix: `/gatsby-starter-emilia`,
   siteMetadata: {
     siteTitle: `Gatsby Starter Emilia`,
     siteTitleAlt: `Gatsby Starter Emilia | AREA44`,
     siteHeadline: `Gatsby Starter Emilia | AREA44`,
-    siteUrl: `https://starter-emilia.netlify.app`,
+    siteUrl: `https://area44.github.io/gatsby-starter-emilia`,
     siteDescription:
       'Minimalistic portfolio/photography site with masonry grid, page transitions and big images.',
     siteImage: `/og-image.jpg`,
