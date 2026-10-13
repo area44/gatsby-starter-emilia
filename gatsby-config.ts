@@ -50,6 +50,7 @@ const config: GatsbyConfig = {
             type: `image/png`,
           },
         ],
+        legacy: false,
       },
     },
   ].filter(Boolean) as Array<PluginRef>,
