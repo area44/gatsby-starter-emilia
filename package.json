@@ -1,6 +1,6 @@
 {
   "name": "@area44/gatsby-starter-emilia",
-  "version": "25.12.10",
+  "version": "26.10.14",
   "private": true,
   "description": "Minimalistic portfolio/photography site that features a masonry grid, page transitions, and large images",
   "author": "AREA44",
@@ -8,7 +8,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "format": "prettier -w . --cache",
+    "format": "prettier -w --cache",
     "serve": "gatsby serve",
     "start": "gatsby develop"
   },
