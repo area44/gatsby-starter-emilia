@@ -1,4 +1,6 @@
+import React from 'react'
 import type { GatsbySSR } from 'gatsby'
+import { withPrefix } from 'gatsby'
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({
   setHeadComponents,
@@ -7,7 +9,7 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({
     <link
       key="favicon-ico"
       rel="icon"
-      href="/gatsby-starter-emilia/favicon.ico"
+      href={withPrefix('/favicon.ico')}
       type="image/x-icon"
     />,
   ])
