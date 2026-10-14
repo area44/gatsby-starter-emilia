@@ -5,7 +5,7 @@
   "description": "Minimalistic portfolio/photography site that features a masonry grid, page transitions, and large images",
   "author": "AREA44",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier -w --cache",
